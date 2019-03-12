@@ -13,6 +13,7 @@ import { AuthService } from './auth/auth.service';
 import { CallbackComponent } from './callback/callback.component';
 import { ApiComponent } from './api/api.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
+    HttpModule, HttpClientModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [AuthService],

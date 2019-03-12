@@ -1,3 +1,4 @@
+<app-api *ngIf="auth.isAuthenticated()"></app-api>
 <h1 *ngIf="auth.isAuthenticated()">
 Sorry Patrick voor mijne kutdag gisteren :P !</h1>
 <h4 *ngIf="!auth.isAuthenticated()">
