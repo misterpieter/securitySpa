@@ -7,6 +7,6 @@ interface AuthConfig {
 export const AUTH_CONFIG: AuthConfig = {
   clientID: 'XG3vOQy8GczMKcUWCaKSCoq75CcrnLj8',
   domain: 'angular-firebase-app.eu.auth0.com',
-  // callbackURL: 'http://localhost:4200/callback'
-  callbackURL: 'https://security-spa.netlify.com/callback'
+  callbackURL: 'http://localhost:4200/callback'
+  // callbackURL: 'https://security-spa.netlify.com/callback'
 };
